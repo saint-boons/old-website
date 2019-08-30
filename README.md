@@ -1,7 +1,7 @@
-# frenchbones.github.io
+## frenchbones.github.io
 Testing / Learning website
 
-Let's follow stadards here...
+## Let's follow stadards here...
 
 - What does the project do?
 
@@ -26,5 +26,5 @@ I'm sorry this may have sounded pretensious allready but I just want random peop
 
 I am the only one that will be contributing on GitHub but line 23 is where you can contribute.
 
-Thank you.
+## Thank you.
 frenchbones
