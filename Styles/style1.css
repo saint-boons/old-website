@@ -1,0 +1,36 @@
+body {
+  background-color: Snow;
+  font-family: "Lucida Console", Monospace;
+}
+#backHome-header {
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#main-header {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#main-footer {
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#backHome-header {
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+a:link {
+color: Black;
+background-color: White;
+}
+a:hover {
+color: White;
+background-color: Black;
+}
