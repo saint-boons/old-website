@@ -6,6 +6,10 @@ body {
   background-color: White;
   font-family: "Lucida Console", Monospace;
 }
+hr {
+  background-color: Black;
+  padding: 1px;
+}
 #backHome-header {
   text-align: left;
   background-color: black;
