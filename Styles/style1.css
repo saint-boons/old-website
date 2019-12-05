@@ -1,3 +1,6 @@
+/*/Styles/style1.css | Style 1 for frenchbones.github.io*/
+/*Made by FrenchBones*/
+/*Please contact me to use this style sheet*/
 body {
   background-color: Snow;
   font-family: "Lucida Console", Monospace;
@@ -45,5 +48,5 @@ a:hover {
   min-height: 100vh;
 }
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 2.5rem;
 }
