@@ -1,22 +1,20 @@
 # frenchbones.github.io
-Testing / Learning website
+Testing website.
 
-## Let's follow stadards here...
+**Let's follow stadards here...**
 
 ## What does the project do?
 
-This project to purely for me to learn about HTML and experiment with HTML...
+This project to purely for me to learn about HTML and experiment with HTML... (CSS too)
 
 ## Why the project is useful?
 
-This project is useful so I can display my knowledge in HTML to the world (still very basic).
+This project is useful so I can display my knowledge in HTML to the world (still very basic). (Just show to friends)
 
 ## How users can get started with the project?
 
-If people wants to take a look and maybe even use it for thier own sake please keep in mind that this is protected by an MIT License.
-(More info about MIT License and your rights on my project: https://en.wikipedia.org/wiki/MIT_License)
-
-I'm sorry this may have sounded pretensious allready but I just want random people ripping me off...
+If people wants to take a look and maybe even use it for thier own sake but users cannot publish afterwards without my permision
+(I know this sounds stupid but that is how I want it to be, just ask me before sharing your version)
 
 ## Where users can get help with your project?
 
@@ -27,4 +25,4 @@ I'm sorry this may have sounded pretensious allready but I just want random peop
 I am the only one that will be contributing on GitHub but line 23 is where you can contribute.
 
 ## Thank you.
-frenchbones
+**frenchbones**
