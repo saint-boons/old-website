@@ -30,12 +30,16 @@ body {
   padding: 10px;
 }
 a:link {
-color: Black;
-background-color: White;
+  color: Black;
+  background-color: White;
+}
+a:visited {
+  color: Black;
+  background-color: White;
 }
 a:hover {
-color: White;
-background-color: Black;
+  color: White;
+  background-color: Black;
 }
 #page-container {
   position: relative;
