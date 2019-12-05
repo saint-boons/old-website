@@ -20,8 +20,9 @@ body {
   color: white;
   position: absolute;
   bottom: 0;
-  width: 99%;
+  width: 99.5%;
   height: 2.5rem;
+  padding-top: 10px;
 }
 #backHome-header {
   text-align: left;
@@ -41,7 +42,6 @@ background-color: Black;
   position: relative;
   min-height: 100vh;
 }
-
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
