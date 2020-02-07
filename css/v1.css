@@ -1,6 +1,6 @@
-/*/Styles/style1.css | Style 1 for frenchbones.github.io*/
-/*Made by FrenchBones*/
-/*Please contact me to use this style sheet*/
+/* /css/style1.css | Style 1 for frenchbones.github.io */
+/* Made by FrenchBones */
+/* Please contact me to use this style sheet */
 
 body {
   background-color: White;
@@ -10,7 +10,7 @@ hr {
   background-color: Black;
   padding: 1px;
 }
-#backHome-header {
+#backHome {
   text-align: left;
   background-color: black;
   color: white;
@@ -51,4 +51,7 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+#outline {
+border:2px solid black;
 }
