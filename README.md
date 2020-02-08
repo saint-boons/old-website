@@ -1,2 +1,2 @@
 # frenchbones.github.io
-"A website, a modern/reto one."
+"A website, a modern/retro one."
