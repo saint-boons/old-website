@@ -12,14 +12,14 @@ hr {
 }
 #backHome {
   text-align: left;
-  background-color: black;
-  color: white;
+  background-color: Black;
+  color: White;
   padding: 10px;
 }
 #main {
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: Black;
+  color: White;
   padding: 10px;
 }
 a:link {
@@ -40,11 +40,35 @@ a:hover {
   margin-right: auto;
 }
 #outline {
-border:2px solid black;
+border:2px solid Black;
 }
 img {
   max-width: 100%;
 }
 iframe {
   max-width: 100%;
+}
+button {
+  color: Black;
+  background-color: White;
+  font-family: "Lucida Console", Monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border:2px solid Black;
+}
+button:hover  {
+  color: White;
+  background-color: Black;
+  font-family: "Lucida Console", Monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border:2px solid Black;
+}
+input {
+  color: Black;
+  background-color: White;
+  font-family: "Lucida Console", Monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border:2px solid Black;
 }
