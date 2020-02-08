@@ -1,4 +1,4 @@
-/* /css/style1.css | Style 1 for frenchbones.github.io */
+/* /css/v1.css | CSS 1 for frenchbones.github.io */
 /* Made by FrenchBones */
 /* Please contact me to use this style sheet */
 
@@ -54,4 +54,8 @@ a:hover {
 }
 #outline {
 border:2px solid black;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
