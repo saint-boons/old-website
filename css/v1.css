@@ -72,3 +72,18 @@ input {
   font-size: 16px;
   border:2px solid Black;
 }
+ul {
+  list-style-type: square;
+}
+
+ul.circle {
+  list-style-type: circle;
+}
+
+ol.romman {
+  list-style-type: upper-roman;
+}
+
+ol.letter {
+  list-style-type: lower-alpha;
+}

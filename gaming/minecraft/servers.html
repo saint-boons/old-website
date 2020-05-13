@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frenchbones "/games/mc-servers.html/"</title>
+    <link rel="stylesheet" href="https://frenchbones.github.io/css/v1.css">
+  </head>
+  <header id="backHome">
+    <a href="../index.html">← back home</a> "/games/mc-servers.html/"
+  </header>
+  <body>
+    <h2>Minecraft Servers</h2>
+    <p><i>"Minecraft servers that I own/operate."</i></p><hr>
+    <h4>"Game Night SMP"</h4>
+    <input type="text" value="game-night.online" size="17" id="copyIP" readonly><button onclick="copyIP()">Copy IP to clipboard</button><a href="https://discord.gg/db3jZRp"><button>Discord server</button></a><br>
+    <h4>Java 1.15.2+</h4>
+    <h4>What is Game Night?</h4>
+    <ul>
+      <li>SMP Server for Minecraft Java Edition (the good edition)</li>
+      <li>On a whitelist</li>
+      <li>Friendly place to play when you want</li>
+      <li>No claim system</li>
+    </ul><hr>
+    <h4>"Leo Craft"</h4>
+    <input type="text" value="leocraft.club" size="13" id="copyIP" readonly><button onclick="copyIP()">Copy IP to clipboard</button><a href="https://discord.gg/UUjFrrw"><button>Discord server</button></a><a href="https://www.curseforge.com/minecraft/modpacks/leos-modpack"><button>Modpack page</button></a><br>
+    <h4>Forge 1.12.2</h4>
+    <h4>What is Leo Craft?</h4>
+    <ul>
+      <li>Modded Server for Forge Minecraft Java Edition</li>
+      <li>Running my custom modpack specially made of the occasion (100+ mods)</a></li>
+      <li>On a whitelist</li>
+      <li>Fantastic modded experiance</li>
+    </ul>
+
+    <script>
+    function copyIP() {
+      var copyText = document.getElementById("copyIP");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999)
+      document.execCommand("copy");
+      alert("Copied IP to the clipboard.");
+    }
+    </script>
+  </body>
+  <footer id="main">Made by & Copyright <strong>©</strong> 2020, <strong>frenchbones</strong></footer>
+</html>
