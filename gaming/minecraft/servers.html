@@ -12,8 +12,8 @@
     <h2>Minecraft Servers</h2>
     <p><i>"Minecraft servers that I own/operate."</i></p><hr>
     <h4>"Game Night SMP"</h4>
-    <input type="text" value="game-night.online" size="17" id="copyIPGameNight" readonly><button onclick="copyIPGameNight()">Copy IP to clipboard</button><a href="https://discord.gg/db3jZRp" target="blank_"><button>Discord server</button></a><br>
-    <h4>Java 1.15.2+</h4>
+    <input type="text" value="game-night.online" size="17" id="copyIPGameNight" readonly><button onclick="copyIPGameNight()">Copy IP to clipboard</button><a href="https://mcsrvstat.us/server/game-night.online" target="blank_"><button>Server Status</button></a><a href="https://discord.gg/db3jZRp" target="blank_"><button>Discord server</button></a><br>
+    <h4>Java 1.15.2+ <img src="..\..\img\eu-flag.png" alt="EU Server" height="25"></h4>
     <h4>What is Game Night?</h4>
     <ul>
       <li>SMP Server for Minecraft Java Edition (the good edition)</li>
@@ -21,9 +21,20 @@
       <li>Friendly place to play when you want</li>
       <li>No claim system</li>
     </ul><hr>
+    <h4>"Soup MC"</h4>
+    <input type="text" value="Comming Soon..." size="17" id="copyIPSoupMC" readonly><button onclick="copyIPSoupMC()">Copy IP to clipboard</button><a href="https://mcsrvstat.us" target="blank_"><button>Server Status</button></a><a href="https://discord.gg/XyzENRS" target="blank_"><button>Discord server</button></a><br>
+    <h4>Java 1.15.2+ <img src="..\..\img\eu-flag.png" alt="EU Server" height="25"></h4>
+    <h4>What is Soup MC?</h4>
+    <ul>
+      <li>Survival and skyblock with a friendly community</li>
+      <li>Great staff team ready to help you</li>
+      <li>Custom discord bot and chat linking between Discord and Minecraft</li>
+      <li>Friendly place to play when you want</li>
+      <li>3 ranks to buy if you want extra perks (Comming Soon...)</li>
+    </ul><hr>
     <h4>"Leo Craft"</h4>
-    <input type="text" value="leocraft.club" size="13" id="copyIPLeoCraft" readonly><button onclick="copyIPLeoCraft()">Copy IP to clipboard</button><a href="https://discord.gg/UUjFrrw" target="blank_"><button>Discord server</button></a><a href="https://www.curseforge.com/minecraft/modpacks/leos-modpack" target="blank_"><button>Modpack page</button></a><br>
-    <h4>Forge 1.12.2</h4>
+    <input type="text" value="leocraft.club" size="13" id="copyIPLeoCraft" readonly><button onclick="copyIPLeoCraft()">Copy IP to clipboard</button><a href="https://mcsrvstat.us/server/leocraft.club" target="blank_"><button>Server Status</button></a><a href="https://discord.gg/UUjFrrw" target="blank_"><button>Discord server</button></a><a href="https://www.curseforge.com/minecraft/modpacks/leos-modpack" target="blank_"><button>Modpack page</button></a><br>
+    <h4>Forge 1.12.2 <img src="..\..\img\eu-flag.png" alt="EU Server" height="25"></h4>
     <h4>What is Leo Craft?</h4>
     <ul>
       <li>Modded Server for Forge Minecraft Java Edition</li>
@@ -35,6 +46,13 @@
     <script>
     function copyIPGameNight() {
       var copyText = document.getElementById("copyIPGameNight");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999)
+      document.execCommand("copy");
+      alert("Copied IP to the clipboard.");
+    }
+    function copyIPSoupMC() {
+      var copyText = document.getElementById("copyIPSoupMC");
       copyText.select();
       copyText.setSelectionRange(0, 99999)
       document.execCommand("copy");
