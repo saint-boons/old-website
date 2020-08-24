@@ -53,8 +53,8 @@ nav {
 }
 
 a:link {
-    color: Black;
-    background: White;
+    color: White;
+    background: #222;
 }
 
 a:visited {
@@ -63,6 +63,21 @@ a:visited {
 }
 
 a:hover {
+    color: Black;
+    background: White;
+}
+
+nav a:link {
+    color: Black;
+    background: White;
+}
+
+nav a:visited {
+    color: Black;
+    background: White;
+}
+
+nav a:hover {
     color: White;
     background: #222;
 }
