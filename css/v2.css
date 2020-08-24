@@ -1,0 +1,142 @@
+/* /css/v2.css | CSS 2 for frenchbones.github.io */
+
+
+/* Made by FrenchBones */
+
+
+/* Please contact me to use this style sheet */
+
+body {
+    background: #222;
+    font-family: "Lucida Console", Monospace;
+    color: White;
+}
+
+hr {
+    background: White;
+    padding: 1px;
+}
+
+header {
+    background: White;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+.logo {
+    float: left;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.nav {
+    text-align: left;
+    color: Black;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main {
+    text-align: center;
+    background: White;
+    color: Black;
+    padding: 10px;
+}
+
+a:link {
+    color: Black;
+    background: White;
+}
+
+a:visited {
+    color: White;
+    background: #222;
+}
+
+a:hover {
+    color: White;
+    background: #222;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#outline {
+    border: 2px solid White;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+button {
+    color: White;
+    background: #222;
+    font-family: "Lucida Console", Monospace;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid White;
+}
+
+button:hover {
+    color: Black;
+    background: White;
+    font-family: "Lucida Console", Monospace;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid White;
+}
+
+input {
+    color: White;
+    background: #222;
+    font-family: "Lucida Console", Monospace;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid White;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+ol.romman {
+    list-style-type: upper-roman;
+}
+
+ol.letter {
+    list-style-type: lower-alpha;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
