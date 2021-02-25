@@ -1,0 +1,82 @@
+{
+  "majorVersion": 3,
+  "minorVersion": 0,
+  "patchVersion": 5,
+  "isDefaultConfig": false,
+  "displayMode": "format",
+  "useFixedPos": false,
+  "fixedPosX": 0.0,
+  "fixedPosY": 0.0,
+  "fixedPosZ": 0.0,
+  "doIntermediateUpdates": true,
+  "timeDependencyDecimalPrecision": 1,
+  "timeDependencyDecimalOffset": 2,
+  "judgments": [
+    {
+      "threshold": 115,
+      "text": "PERFECT",
+      "color": [
+        1.0,
+        0.843,
+        0.0,
+        1.0
+      ],
+      "fade": true
+    },
+    {
+      "threshold": 100,
+      "text": "EXCELLENT%n%s",
+      "color": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "fade": true
+    },
+    {
+      "threshold": 90,
+      "text": "GREAT%n%s",
+      "color": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "fade": true
+    },
+    {
+      "threshold": 80,
+      "text": "GOOD%n%s",
+      "color": [
+        0.502,
+        0.0,
+        0.502,
+        1.0
+      ],
+      "fade": true
+    },
+    {
+      "threshold": 60,
+      "text": "OKAY%n%s",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fade": true
+    },
+    {
+      "threshold": 0,
+      "text": "OOF%n%s",
+      "color": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "fade": true
+    }
+  ]
+}
